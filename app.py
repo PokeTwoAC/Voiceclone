@@ -31,4 +31,4 @@ iface = gr.Interface(fn=voice_clone, theme="Nymbo/Nymbo_Theme",
                      outputs=gr.Audio(type="filepath", label="Generated audio file"), 
                      title="Voice Cloning")
 
-iface.launch()
+iface.launch(share=True)
